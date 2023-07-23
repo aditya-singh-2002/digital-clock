@@ -17,7 +17,7 @@ window.geometry("700x200")
 
 # using fonts and colors for the label
 clock_label = tk.Label(window, font=("Verdana", 80), bg="black", fg="white")
-clock_label.pack(pady=50)
+clock_label.pack(pady=30)
 
 # starts updating the time
 display_time()
